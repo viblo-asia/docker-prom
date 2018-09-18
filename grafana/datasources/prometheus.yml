@@ -1,0 +1,13 @@
+apiVersion: 1
+
+deleteDatasources:
+  - name: Prometheus
+
+datasources:
+- name: Prometheus
+  type: prometheus
+  access: proxy
+  url: <prometheus_host>
+  isDefault: true
+  version: 1
+  editable: true
